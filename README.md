@@ -1,21 +1,19 @@
 <div align="center">
 
-<img src="docs/banner.png" alt="Keel — an agent trusted to take irreversible business actions" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/logo-dark.svg">
+  <img src="docs/logo-light.svg" alt="keel" width="56">
+</picture>
 
-<br>
+# Keel
 
-**Your churn dashboard tells you a customer is at risk. It never tells you *why* — because the symptom and the cause are never in the same tool. Keel finds the why across five apps, acts on it, and proves every action by reading the app back.**
-
-[![reliability suite](https://github.com/ShaanGS/keel/actions/workflows/ci.yml/badge.svg)](https://github.com/ShaanGS/keel/actions/workflows/ci.yml)
-[![18/18 cases](https://img.shields.io/badge/reliability-18%2F18_cases-14804a?labelColor=1c1c1f)](evals/REPORT.md)
-[![5 of them assert nothing happens](https://img.shields.io/badge/5-assert_it_does_nothing-c6303b?labelColor=1c1c1f)](evals/REPORT.md)
-[![5 external apps](https://img.shields.io/badge/external_apps-5-5a50e0?labelColor=1c1c1f)](#external-apps)
-[![license](https://img.shields.io/badge/license-MIT-9a9ea6?labelColor=1c1c1f)](LICENSE)
-[![live](https://img.shields.io/badge/live-keel--nine--flame.vercel.app-16171a?labelColor=1c1c1f)](https://keel-nine-flame.vercel.app)
+Spots the customer about to leave. Acts. Shows the receipts.
 
 **[Live app](https://keel-nine-flame.vercel.app)**  ·  **[▶ Demo video (2 min)](https://drive.google.com/file/d/1GM7cbdqAG-AqoLbLXqLp79fPPZdnH1D5/view?usp=sharing)**  ·  [Reliability report](evals/REPORT.md)  ·  [Architecture](#architecture)  ·  [How it was verified](#how-i-tested-and-verified-it-works)  ·  [video mirror](docs/demo.mp4)
 
 </div>
+
+Your churn dashboard tells you a customer is at risk. It never tells you *why* — because the symptom and the cause are never in the same tool. Keel finds the why across five apps, acts on it, and proves every action by reading the app back.
 
 ---
 
